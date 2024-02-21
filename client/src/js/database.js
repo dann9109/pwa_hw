@@ -37,4 +37,4 @@ export const getDb = async () => {
   return result.value;
 };
 
-module.exports = initdb()
+initdb()
